@@ -7,6 +7,10 @@ body {
 
 .navbar {
     background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .nav-item {
@@ -37,6 +41,11 @@ nav img {
 
 /*seccion carruse de imagenes modificada con bootstrap*/
 
+.carrusel_img {
+    margin-top: 60px;
+}
+
+
 
 .carru {
     position: relative;
@@ -45,8 +54,49 @@ nav img {
 .carru h2 {
     position: absolute;
     color: white;
-    font-size: 90px;
+    font-size: 70px;
     width: 50%;
     padding-left: 10%;
     padding-top: 5%;
+}
+
+@media  screen and (max-width:640px) {
+    .carru h2 {
+        font-size:30px;
+    }
+    
+}
+
+
+/* seccion de promos*/
+
+.promos {
+    margin-top: 60px;
+}
+
+.promos h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.promos h3 {
+    text-align: center;
+    color: orange;
+    padding: 20px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card img {
+    padding: 20px;
+    font-weight: bold;
+}
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    text-align: center;   
 }

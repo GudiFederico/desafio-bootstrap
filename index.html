@@ -16,7 +16,7 @@
 
     <!-- header con barra de navegacion de bootstrap-->
 
-    <header class="">
+    <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -56,7 +56,7 @@
 
 
 
-    <section>
+    <section class="carrusel_img container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -67,9 +67,11 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active carru">
-                <h2>
-                    FORMA PARTE DE NUESTRA FAMILIA!
-                </h2>
+                <div class="carru_text row">
+                  <h2 class="col-6">
+                      FORMA PARTE DE NUESTRA FAMILIA!
+                  </h2>
+                </div>
                 <img src="https://cdn.shopify.com/s/files/1/0406/9729/9097/files/GEAR_UP_FOR_1_1500x.jpg?v=1646139231" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
@@ -95,6 +97,41 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+    </section>
+
+
+
+    <!--seccion promos-->
+
+    <section class="promos container">
+      <h2>
+          <b>Aprovecha nuestras Promos!!</b>
+      </h2>
+      <div class="card-group">
+        <div class="card">
+          <img src="multimedia/img/2x1-01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Veni con un Amigo</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ipsam?</p>
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="multimedia/img/promo_tarjeta-01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">12 cuotas sin interes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, velit?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="multimedia/img/hot_sale-01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aprovecha el Hot Sale</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, officiis?</p>
+          </div>
+        </div>
+      </div>
+      <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</h3>
     </section>
 
 
