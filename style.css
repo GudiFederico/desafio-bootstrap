@@ -191,3 +191,63 @@ nav img {
     height: 300px;
     width: 400px;
 }
+
+
+/*seccion nosotros*/
+
+.nosotros {
+    padding-top: 60px;
+    width: 100%;
+}
+
+.nosotros h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.nosotros img {
+    height: 200px;
+    margin: 30px;
+
+}
+.nosotros h3 {
+    padding: 30px;
+}
+
+.nosotros iframe {
+    margin-bottom: 40px;
+}
+
+.somos { 
+    text-align: center;
+    padding: 40px;
+}
+
+
+footer {
+    height: 20px;
+
+}
+
+footer img {
+    height: 30px;
+}
+
+footer hr {
+    color: orange;
+    height: 8px;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foot-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
